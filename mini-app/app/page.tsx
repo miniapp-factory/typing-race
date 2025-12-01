@@ -1,6 +1,6 @@
 import { description, title } from "@/lib/metadata";
 import { generateMetadata } from "@/lib/farcaster-embed";
-import { DragRace } from "@/components/drag-race";
+import DragRace from "@/components/drag-race";
 
 export { generateMetadata };
 
