@@ -292,6 +292,15 @@ export default function DragRace() {
           )}
           style={{ transform: `translateX(${position}px)` }}
         />
+        <img
+          src="/drag-car.png"
+          alt="Opponent Car"
+          className={cn(
+            'absolute top-1/2 left-0 transform -translate-y-1/2 w-8 h-8',
+            'transition-transform duration-0'
+          )}
+          style={{ transform: `translateX(${opponentPosition}px)` }}
+        />
       </div>
       <div className="mb-4">
         <span className="font-medium">Next word:</span>{' '}
